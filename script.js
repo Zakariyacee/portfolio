@@ -14,3 +14,13 @@ window.addEventListener('resize', function() {
     emailDesc.textContent = "Get in touch 👇";
   }
 });
+
+
+// Typescript effect
+
+let typed = new Typed(".auto-type", {
+  strings: ["Bonjour!", "¡Hola!", "Ciao!", "こんにちは!", "!مرحبًا", "안녕하세요!" ],
+  typeSpeed: 100,
+  backSpeed: 100,
+  loop: true
+})
