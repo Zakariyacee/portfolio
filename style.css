@@ -394,10 +394,13 @@ footer{
   list-style:none;
 }
 
-.auto-type{
-  font-size:;
-}
 
 .empty-space{
   height:50%;
+}
+
+@media (miin-width: 768px){
+  .empty-space{
+    height:5%;
+  }
 }
