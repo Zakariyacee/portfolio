@@ -10,6 +10,7 @@
     integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <script src="script.js" defer></script>
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
 </head>
 
 <body>
@@ -17,8 +18,9 @@
   <section class="hero" id="hero">
     <div class="container">
       <div class="left">
-        <h1 class="greeting">Hello! 👋</h1>
-        <h2 class="me" id="me">I'm <span class="name">Zakariya Aden</span>, a web developer based in Leeds, England. I
+        <div></div>
+        <h1 class="greeting"><span class="auto-type">Hello!</span> 👋</h1>
+        <h2 class="me" id="me">I'm <span class="name">Zakariya Aden</span>, a software developer based in Leeds, England. I
           create immersive, user-centric websites that blend technology with captivating design, exploring new trends
           and pushing boundaries! </h2>
         <div class="contact">
@@ -37,13 +39,13 @@
           <h2>Background</h2>
         </div>
         <div class="about-right">
-          <p>As a software developer, I bring a passion for crafting elegant and efficient solutions to complex
+          <p class="about-me">As a software developer, I bring a passion for crafting elegant and efficient solutions to complex
             problems. With a strong foundation in programming languages and technologies, I thrive in creating
             innovative software that meets user needs and drives impactful results. <br> <br> Behind the scenes, I take
             pride in building efficient code, optimizing performance, and implementing best practices to ensure scalable
             and maintainable solutions. </p>
 
-          <p><span> Outside of my digital workspace </span>, Im most likely doing Muay Thai, reading or travelling</p>
+          <p class="interests"><span> Outside of my digital workspace </span>, Im most likely doing Muay Thai, reading or travelling</p>
           <a href="https://drive.google.com/file/d/1f-8-KpSV2JXJ3bX8MMrQF6nbVqk0n3Q5/view?usp=sharing"
             class="resume-link">
             View my resume <span class="arrow">➔</span>
@@ -54,10 +56,11 @@
       <div class="skills" id="skills">
         <div class="background">
           <div class="about-left">
-            <h2>Skills</h2>
+            <h2>Skills & Tools</h2>
+            <!-- <p>The skills, languages, and technologies I utilize to transform your ideas into tangible products.</p> -->
           </div>
           <div class="about-right">
-            <ul>
+            <ul class="about-ul">
               <li class="list-items">
                 <i class="fa-brands fa-html5"></i>
                 <span class="list-names">HTML5</span>
@@ -105,7 +108,88 @@
       </div>
     </div>
   </section>
+  <section class="projects" id="projects">
+    <div class="project-container">
+      <div class="background">
+        <div class="about-left">
+          <p class="projects-title">Projects</p>
+        </div>
+        
+        <div class="right">
+          <div class="project-left">
+            <h4 class="job-desc">SOFTWARE DEVELOPER</h4>
+          <h2 class="project-name">ILYAS</h1>
+          <ul class="project-ul">
+            <li class="skills-used">HTML5</li>
+            <li class="skills-used">CSS3</li>
+            <li class="skills-used">JAVASCRIPT</li>
+          </ul>
+          <p class="project-desc">I meticulously designed and developed an immersive e-commerce front page that seamlessly blends aesthetics with functionality. Leveraging my proficiency in front-end technologies, I created a dynamic platform that engages visitors and drives conversions.
+          </p>
+            
+           <a href="" target="_blank" class="view-project-btn">View Project</a>
+                      
+          </div>
+          <div class="project-right">
+            <a href="https://zakariyacee.github.io/ILYAS-Store/" target="_blank">
+              <img src="landing-page.png" width="200px" alt="project-image">
+            </a>
+          </div>
+        </div>
 
-</body>
+
+        <div class="about-left">
+          
+        </div>
+        <div class="right">
+          <div class="project-left">
+            <h4 class="job-desc">SOFTWARE DEVELOPER</h4>
+          <h2 class="project-name">Kaizen.</h1>
+          <ul class="project-ul">
+            <li class="skills-used">HTML5</li>
+            <li class="skills-used">SASS</li>
+            <li class="skills-used">JAVASCRIPT</li>
+          </ul>
+          <p class="project-desc">I independently created a captivating rental car landing page, featuring modern design, seamless navigation, and responsive UI. Showcasing my web development skills and creativity, this project demonstrates my ability to craft engaging and functional landing pages.
+          </p>
+            
+           <a href="" target="_blank" class="view-project-btn">View Project</a>
+                      
+          </div>
+          <div class="project-right">
+            <a href="https://zakariyacee.github.io/Kaizen/" target="_blank">
+              <img src="kaizen.png" width="200px" alt="project-image">
+            </a>
+          </div>
+        </div>
+
+        
+        
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="footer-container">
+      
+      <div class="footer-text">
+        <p>Created by</p>
+        <p>Zakariya Aden ✌️ 2023 </p>
+      </div>
+      <div class="footer-links">
+        <a href="mailto:Zakariyaaden20@outlook.com" target="_blank" class="links">
+         <i class="fa-solid fa-envelope"></i>
+        </a>
+        
+        <a href="https://www.linkedin.com/in/zakariyaaden/" target="_blank" class="links">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+        
+        <a href="https://github.com/Zakariyacee" target="_blank" class="links">
+          <i class="fa-brands fa-github"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+  </body>
 
 </html>
